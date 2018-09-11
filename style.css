@@ -1,0 +1,45 @@
+
+
+body{
+    background-image: url("fundo.PNG")
+}
+
+.principal{
+    margin-top: 5%;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    height: 80%;
+    background-color: white;
+    border: 3px dashed red;
+    opacity: 1;
+    color: 	#D2691E;
+    font-size: 30px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+    
+}
+
+
+@media  only screen and (min-width: 1080px) {
+    .anafoto{
+        margin-top: 15px;
+        margin-left: auto;
+        margin-right: auto;   
+        z-index: 5;
+    }   
+}
+
+@media  only screen and (max-width: 360px) {
+    .principal{
+        margin-top: 10%;
+        font-size: 18px;
+    }
+
+    .anafoto{
+        margin-top: 5%;
+        margin-left: auto;
+        margin-right: auto;
+        width: 80%;
+        z-index: 5;
+    }    
+}
